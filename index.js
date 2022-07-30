@@ -9,8 +9,6 @@ const bcryptjs = require('bcryptjs');
 const jwt = require("jsonwebtoken");
 const SECRET=process.env.SECRET;
 
-//const URL = "mongodb://localhost:27017";
-//const URL = "mongodb+srv://Hariprakash:Hariprakash20@cluster0.3wyvyo5.mongodb.net/test";
 as.use(express.json());
 as.use(cors({
     orgin: "*"
